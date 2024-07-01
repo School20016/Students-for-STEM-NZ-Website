@@ -2,3 +2,22 @@ html {
   height: 100%;
   width: 100%;
 }
+.topnav {
+  background-color: #9e9e9e;
+  overflow: hidden;
+}
+.topnav a {
+  background-color: #000000;
+  color: white;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #9e9e9e;
+  color: black;
+}
