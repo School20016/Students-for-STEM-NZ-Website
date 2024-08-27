@@ -23,3 +23,23 @@ html {
   background-color: #000000;
   color: white;
 }
+/* For devices with a screen over 1000px */
+@media only screen and (min-width: 1000px) {
+.topnav {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  float: left;
+}
+.topnav a {
+  display: block;
+  text-align: center;
+  width: 85%;
+}
+}
+section {
+  margin: 14px 20px 14px 20px;
+  width: 70%;
+  display: inline-block;
+  overflow: hidden;
+}
