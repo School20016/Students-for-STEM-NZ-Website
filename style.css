@@ -37,26 +37,14 @@ html {
 /* For laptops/devices with a screen over 1000px */
   @media only screen and (min-width: 1000px) {
 
-  .topnav {
-    margin: 0;
-    padding: 0;
-    width: 15%;
-    float: left;
-  }
-  .topnav a {
-    display: block;
-    text-align: center;
-    width: 100%;
-  }
-
   .section {
   margin-right: 0px;
-    width: 55%;
+    width: 60%;
     float: left;
   }
     #aside {
     margin-left: 0px;
-      width: 28%;
+      width: 35%;
       float: right;
     }
   }
