@@ -32,8 +32,9 @@ html {
   width: 100%;
   display: inline-block;
   overflow: visible;
-  vertcal-align: top;
+  vertical-align: top;
 }
+
 /* For laptops/devices with a screen over 1000px */
   @media only screen and (min-width: 1000px) {
 
@@ -42,9 +43,9 @@ html {
     width: 60%;
     float: left;
   }
-    #aside {
-    margin-left: 0px;
-      width: 35%;
-      float: right;
-    }
+     #aside {
+      margin-left: 0px;
+        width: 35%;
+        float: right;
+      }
   }
