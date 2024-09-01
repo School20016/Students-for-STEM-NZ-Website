@@ -15,7 +15,12 @@ header, footer {
   font-family: "Archivo Black", sans-serif;
   width: 100%;
 }
-
+h1, h2 {
+  font-family: "Archivo Black", sans-serif;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .topnav {
   width: 100%;
   margin: 0;
