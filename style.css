@@ -43,13 +43,18 @@ p {
   background-color: #1B263B;
   color: white;
 }
-.section {
+.section, .rolemodelsection {
   padding: 14px 0px 14px 10px;
   margin: 0 auto;
   width: 100%;
   display: inline-block;
   overflow: hidden;
   vertical-align: top;
+}
+img {
+  margin-right: 10px;
+  float: left;
+  width: 20%;
 }
 
 /* For laptops/devices with a screen over 1000px */
