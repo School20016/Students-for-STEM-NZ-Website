@@ -6,14 +6,18 @@ html {
   height: 100%;
   width: 100%;
 }
-header {
+
+header, footer {
   background-color: #E0E1DD;
   overflow: hidden;
   text-align: center;
   color: #1B263B;
   font-family: "Archivo Black", sans-serif;
+  width: 100%;
 }
+
 .topnav {
+  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -36,10 +40,10 @@ header {
 }
 .section {
   padding: 14px 0px 14px 10px;
-  margin: 0px 10px 0px 10px;
+  margin: 0 auto;
   width: 100%;
   display: inline-block;
-  overflow: visible;
+  overflow: hidden;
   vertical-align: top;
 }
 
@@ -56,4 +60,5 @@ header {
         width: 35%;
         float: right;
       }
+
   }
