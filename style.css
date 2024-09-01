@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -5,25 +6,32 @@ html {
   height: 100%;
   width: 100%;
 }
-.topnav {
-  background-color: #9e9e9e;
+header {
+  background-color: #E0E1DD;
   overflow: hidden;
+  text-align: center;
+  color: #1B263B;
+  font-family: "Archivo Black", sans-serif;
+}
+.topnav {
+  margin: 0;
+  padding: 0;
 }
 .topnav a {
-  background-color: #9e9e9e;
-  color: black;
+  background-color: #a9a9a7;
+  color: #000000;
   text-decoration: none;
-  font-family: sans-serif;
+  display: block;
   float: left;
-  text-align: center;
-  padding: 14px 16px;
+  padding: 1%;
+  width: 25%;
 }
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #E0E1DD;
+  color: #1B263B;
 }
 .topnav a.active {
-  background-color: #000000;
+  background-color: #1B263B;
   color: white;
 }
 .section {
